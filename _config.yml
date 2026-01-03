@@ -4,7 +4,7 @@ tagline: Refined drafts. Better writing.
 description: A blog about writing, technology, and clarity.
 author: dilip
 url: "https://draftrefine.com"
-baseurl: "/draftrefine"
+baseurl: ""
 
 email: draftrefine@gmail.com
 logo: 'assets/images/logo.png'
