@@ -3,7 +3,7 @@ layout: post
 title:  "Why Most Technical Documentation Fails?"
 author: dilip
 categories: [ Technical Writing ]
-image: assets/images/tech-doc-fail.png
+image: assets/images/post/tech-doc-fail.png
 tags: [fail]
 
 ---

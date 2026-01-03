@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to DraftRefine!"
 author: dilip
 categories: [ Blog ]
-image: assets/images/home.jpg
+image: assets/images/post/welcome.png
 tags: [featured]
 
 ---
