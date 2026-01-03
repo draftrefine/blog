@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Technical Blog Using Jekyll and GitHub Pages"
 author: dilip
-categories: [ Blogging ]
+categories: [ Blog, Tutorial ]
 image: assets/images/githubpages-jekyll.jpg
 tags: [featured]
 
