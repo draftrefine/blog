@@ -1130,3 +1130,56 @@ article img {
     font-size: 1.25rem;
   }
 }
+
+/* =========================================================
+   Jumbotron typography override (DraftRefine)
+   ========================================================= */
+
+/* Homepage jumbotron title */
+.jumbotron-home h1,
+.jumbotron h1 {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+}
+
+/* Jumbotron paragraph text */
+.jumbotron-home p,
+.jumbotron p {
+  font-family: "Inter", sa
+
+  /* ===== Force visible hamburger icon on black navbar ===== */
+
+/* Ensure toggler button is visible */
+.navbar .navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Force WHITE hamburger icon */
+.navbar .navbar-toggler-icon {
+  background-image: none !important;
+  position: relative;
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.navbar .navbar-toggler-icon::before,
+.navbar .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.navbar .navbar-toggler-icon::before {
+  top: -7px;
+}
+
+.navbar .navbar-toggler-icon::after {
+  top: 7px;
+}
+
+
