@@ -22,7 +22,6 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    dilip:
       name:           Dilip
       site:           https://www.diliprout.in/
       avatar:         /assets/images/avatar1.jpg
