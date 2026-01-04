@@ -98,9 +98,8 @@ Owning your platform ensures:
 For a profession centered on long-term clarity, this matters.
 
 ---
-
-### Image Placeholder
-> _Diagram placeholder: Content lifespan on owned platform vs third-party platform_
+![Content lifespan on owned platform vs third-party platform](/assets/images/post/lifespan.png)
+*Content lifespan on owned platform vs third-party platform*
 
 ---
 

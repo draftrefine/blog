@@ -8555,3 +8555,35 @@ body {
                Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue",
                Arial, sans-serif;
 }
+
+/* =========================================================
+   Mobile fixed thumbnails – FINAL OVERRIDE (DraftRefine)
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  .mb-3.d-flex.align-items-center {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .mb-3.d-flex.align-items-center > .col-md-4 {
+    flex: 0 0 120px !important;
+    max-width: 120px !important;
+    padding: 0;
+  }
+
+  .mb-3.d-flex.align-items-center > .col-md-8 {
+    flex: 1 1 auto !important;
+    max-width: calc(100% - 120px);
+  }
+
+  /* override Bootstrap w-100 */
+  .mb-3.d-flex.align-items-center img.w-100 {
+    width: 120px !important;
+    height: 80px !important;
+    max-width: 120px !important;
+    object-fit: cover;
+    display: block;
+  }
+}

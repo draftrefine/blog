@@ -1182,4 +1182,73 @@ article img {
   top: 7px;
 }
 
+/* =========================================================
+   FINAL mobile thumbnail fix (Bootstrap w-100 override)
+   ========================================================= */
 
+@media (max-width: 767px) {
+
+  /* Each post row */
+  .mb-3.d-flex.align-items-center {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  /* Image column – override Bootstrap */
+  .mb-3.d-flex.align-items-center > .col-md-4 {
+    flex: 0 0 120px !important;
+    max-width: 120px !important;
+    padding: 0;
+  }
+
+  /* Text column */
+  .mb-3.d-flex.align-items-center > .col-md-8 {
+    flex: 1 1 auto !important;
+    max-width: calc(100% - 120px);
+  }
+
+  /* KILL Bootstrap w-100 on mobile */
+  .mb-3.d-flex.align-items-center img.w-100 {
+    width: 120px !important;
+    height: 80px !important;
+    max-width: 120px !important;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+/* =========================================================
+   FINAL FIX: Override Bootstrap .w-100 for post thumbnails
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  /* Post list row */
+  .mb-3.d-flex.align-items-center {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  /* Thumbnail column */
+  .mb-3.d-flex.align-items-center > .col-md-4 {
+    flex: 0 0 120px !important;
+    max-width: 120px !important;
+    padding: 0;
+  }
+
+  /* Text column */
+  .mb-3.d-flex.align-items-center > .col-md-8 {
+    flex: 1 1 auto !important;
+    max-width: calc(100% - 120px);
+  }
+
+  /* 🔥 OVERRIDE w-100 (THIS IS THE KEY) */
+  .mb-3.d-flex.align-items-center img.w-100 {
+    width: 120px !important;
+    max-width: 120px !important;
+    height: 80px !important;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+}
