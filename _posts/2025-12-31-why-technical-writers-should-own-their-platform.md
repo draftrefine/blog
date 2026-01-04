@@ -42,9 +42,8 @@ But they all share one characteristic:
 **You don’t control them.**
 
 ---
-
-### Image Placeholder
-> _Screenshot placeholder: Example of a technical article hosted on a third-party platform_
+![Example of a technical article hosted on a third-party platform](/assets/images/post/tech-article.png)
+*Example of a technical article hosted on a third-party platform*
 
 ---
 
@@ -145,9 +144,8 @@ Writing returns to what technical writers value most:
 > **clarifying ideas-for themselves and others.**
 
 ---
-
-### Image Placeholder
-> _Screenshot placeholder: Markdown file of a technical blog post in a Git repository_
+![Markdown file of a technical blog post in a Git repository](/assets/images/post/md-git-repo.png)
+*Markdown file of a technical blog post in a Git repository*
 
 ---
 
@@ -190,7 +188,7 @@ Owning the platform reinforces professional habits-not vanity publishing.
 
 ## Common Concerns (and Why They Don’t Hold)
 
-### “I don’t want to maintain infrastructure”
+### 1. “I don’t want to maintain infrastructure”
 You don’t need to.
 
 Static site generators + GitHub Pages require:
@@ -200,7 +198,7 @@ Static site generators + GitHub Pages require:
 
 ---
 
-### “I don’t have time to blog consistently”
+### 2. “I don’t have time to blog consistently”
 Consistency is optional.  
 Ownership is not.
 
@@ -211,7 +209,7 @@ An owned platform works even if you publish:
 
 ---
 
-### “No one will read it”
+### 3. “No one will read it”
 That may be true at first-and that’s fine.
 
 The goal is not immediate reach.
@@ -238,8 +236,8 @@ Technical writers spend their careers advocating for clarity, structure, and own
 
 Owning your platform is simply applying those same principles to your own work.
 
-You don’t need to publish more.  
-You don’t need to publish faster.
+>You don’t need to publish more.  
+>You don’t need to publish faster.
 
 You just need a place where your thinking can live-without expiration dates.
 

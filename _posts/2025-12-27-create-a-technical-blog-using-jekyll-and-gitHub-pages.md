@@ -29,9 +29,8 @@ Before jumping into steps, it’s important to understand why this combination w
 
 If you are comfortable with Git and Markdown, you already know most of what you need.
 
-Screenshot placeholder: Example of a simple Jekyll blog homepage
-
-\---
+![Example of a simple Jekyll blog homepage](/assets/images/post/eg-jekyll.png)
+*Example of a simple Jekyll blog homepage*
 
 ## Step 1: Install Prerequisites
 
@@ -53,7 +52,7 @@ Once installed, verify:
 jekyll -v
 ```
 
-\---
+
 
 ## Step 2: Create a New Jekyll Site
 
@@ -77,9 +76,8 @@ Open your browser and visit:
 http://localhost:4000
 ```
 
-Screenshot placeholder: Jekyll default site running locally
-
-\---
+![Jekyll default site running locally](/assets/images/post/jekyll-local.png)
+*Jekyll default site running locally*
 
 ## Step 3: Understand the Jekyll Structure
 
@@ -108,7 +106,7 @@ layout: post
 
 Everything after that is just Markdown.
 
-\---
+
 
 ## Step 4: Push the Blog to GitHub
 
@@ -131,9 +129,8 @@ git remote add origin https://github.com/yourusername/yourusername.github.io.git
 git push -u origin main
 ```
 
-Screenshot placeholder: GitHub repository with Jekyll files
-
-\---
+![GitHub repository with Jekyll files](/assets/images/post/jekyll-git-local.png)
+*GitHub repository with Jekyll files*
 
 ## Step 5: Enable GitHub Pages
 
@@ -150,7 +147,7 @@ Within a minute or two, your blog will be live at:
 https://yourusername.github.io
 ```
 
-\---
+
 
 ## Step 6 (Optional): Connect a Custom Domain
 
@@ -174,9 +171,8 @@ In your repository root, add a file named `CNAME`:
 yourdomain.com
 ```
 
-Screenshot placeholder: DNS configuration at domain registrar
-
-\---
+![DNS configuration at domain registrar](/assets/images/post/dns-domain-reg.png)
+*DNS configuration at domain registrar*
 
 ## What This Setup Gives You
 
@@ -187,7 +183,6 @@ Screenshot placeholder: DNS configuration at domain registrar
 
 Most importantly, it removes friction. Writing becomes the primary task again.
 
-\---
 
 ## Final Thoughts
 
@@ -197,4 +192,6 @@ You don’t need a complex platform to publish thoughtful work. You need a syste
 
 Jekyll and GitHub Pages do exactly that.
 
-DraftRefine — Clear thinking. Refined writing.
+DraftRefine
+
+_Clear thinking. Refined writing._

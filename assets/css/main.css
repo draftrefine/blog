@@ -8587,3 +8587,26 @@ body {
     display: block;
   }
 }
+
+/* =========================================================
+   Disable all author-related UI (DraftRefine)
+   ========================================================= */
+
+/* Hide author name, avatar, follow button */
+.author,
+.author-meta,
+.authorbox,
+.author-thumb,
+.author-info,
+.post-author,
+.metafooter,
+.follow,
+.avatar {
+  display: none !important;
+}
+
+/* Keep date visible */
+.post-date,
+.text-muted {
+  display: inline-block !important;
+}
