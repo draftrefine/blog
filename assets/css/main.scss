@@ -53,3 +53,123 @@ $selection-background-color: unquote("{{ site.selection.background_color }}");
 }
 
 @import "yat";
+
+/* =========================================================
+   DraftRefine – Typography & Reading Comfort (YAT FIXED)
+   ========================================================= */
+
+/* Base reading experience */
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Constrain ONLY the article text (not the whole layout) */
+.article-content .markdown-body {
+  max-width: 720px;
+}
+
+/* Paragraph rhythm */
+.article-content .markdown-body p {
+  margin-bottom: 1.25em;
+}
+
+/* Headings – informative, not shouty */
+.article-content .markdown-body h1,
+.article-content .markdown-body h2,
+.article-content .markdown-body h3,
+.article-content .markdown-body h4 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.article-content .markdown-body h2 {
+  margin-top: 2.5rem;
+}
+
+.article-content .markdown-body h3 {
+  margin-top: 2rem;
+}
+
+/* Links – subtle editorial style */
+.article-content .markdown-body a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Lists – prose-oriented */
+.article-content .markdown-body ul,
+.article-content .markdown-body ol {
+  padding-left: 1.3rem;
+}
+
+.article-content .markdown-body li {
+  margin-bottom: 0.4rem;
+}
+
+/* Code – readable but secondary to prose */
+.article-content .markdown-body pre,
+.article-content .markdown-body code {
+  font-size: 0.9em;
+}
+
+.article-content .markdown-body pre {
+  line-height: 1.6;
+}
+
+/* =========================================================
+   DraftRefine – Font Selection (Inter)
+   ========================================================= */
+
+/* Import Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Apply globally */
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+               'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+               'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Headings – calm, editorial */
+.article-content .markdown-body h1,
+.article-content .markdown-body h2,
+.article-content .markdown-body h3,
+.article-content .markdown-body h4 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+/* =========================================================
+   Logo swap for light / dark mode (YAT)
+   ========================================================= */
+
+.logo {
+  transition: opacity 0.15s ease;
+}
+
+
+.site-brand-inner {
+  display: flex;
+  align-items: center;
+}
+
+.site-brand-inner .logo {
+  height: 34px;
+  width: auto;
+}
+
+/* Default: light mode */
+.logo-dark {
+  display: none;
+}
+
+/* Dark mode */
+html.dark .logo-light {
+  display: none;
+}
+
+html.dark .logo-dark {
+  display: inline-block;
+}
