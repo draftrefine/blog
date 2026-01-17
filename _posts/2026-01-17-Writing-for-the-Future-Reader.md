@@ -3,12 +3,11 @@ layout: post
 title:  "Writing for the Future Reader: Why Good Documentation Ages Well"
 description: "Why technical documentation should be written for future readers - and how clarity, context, and intent determine whether writing ages well."
 categories: [ Blog ]
-excerpt_image: assets/images/post/blog_6.png
-image: assets/images/post/welcome.png
+excerpt_image: assets/images/post/blog_5.png
 tags: []
 ---
 
-![Writing for the Future Reader: Why Good Documentation Ages Well](/assets/images/post/blog_6.png)
+![Writing for the Future Reader: Why Good Documentation Ages Well](/assets/images/post/blog_5.png)
 
 # Writing for the Future Reader: Why Good Documentation Ages Well
 
@@ -38,7 +37,7 @@ The future reader might be:
 
 Good documentation assumes this gap exists. Poor documentation ignores it.
 
-![Timeline showing documentation written now but read later](/assets/images/post/blog_6.1.png)
+![Timeline showing documentation written now but read later](/assets/images/post/blog_5.1.png)
 *Timeline showing documentation written now but read later*
 
 
@@ -85,7 +84,7 @@ Documentation tightly coupled to:
 …becomes outdated quickly, even if technically accurate at the time.
 
 
-![Example of outdated documentation tied to a specific tool version](/assets/images/post/blog_6.2.png)
+![Example of outdated documentation tied to a specific tool version](/assets/images/post/blog_5.2.png)
 *Example of outdated documentation tied to a specific tool version*
 
 
@@ -131,7 +130,7 @@ Explaining:
 Intent answers *why*. Implementation answers *how*.
 When these are clearly separated, future readers can update one without misunderstanding the other.
 
-![Intent vs implementation layers in documentation](/assets/images/post/blog_6.3.png)
+![Intent vs implementation layers in documentation](/assets/images/post/blog_5.3.png)
 *Intent vs implementation layers in documentation*
 
 
